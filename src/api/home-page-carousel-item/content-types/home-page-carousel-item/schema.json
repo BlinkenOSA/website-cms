@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_carousel_items",
+  "info": {
+    "singularName": "home-page-carousel-item",
+    "pluralName": "home-page-carousel-items",
+    "displayName": "Home Page Carousel Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Title1stRow": {
+      "type": "string",
+      "required": true
+    },
+    "Title2ndRow": {
+      "type": "string"
+    },
+    "Subtitle1stRow": {
+      "type": "string"
+    },
+    "Subtitle2ndRow": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "FrontPageSequence": {
+      "type": "integer"
+    }
+  }
+}

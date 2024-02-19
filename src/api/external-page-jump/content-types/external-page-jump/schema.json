@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "external_page_jumps",
+  "info": {
+    "singularName": "external-page-jump",
+    "pluralName": "external-page-jumps",
+    "displayName": "External Page Jump",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "CardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "blocks",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "LinkButtonText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
