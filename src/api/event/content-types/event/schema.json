@@ -120,15 +120,6 @@
       "type": "text",
       "required": true
     },
-    "Content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "blocks",
-      "required": true
-    },
     "RegistrationLink": {
       "pluginOptions": {
         "i18n": {
@@ -153,6 +144,22 @@
       },
       "type": "customField",
       "customField": "plugin::tagsinput.tags"
+    },
+    "Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "contents.content-left",
+        "contents.content",
+        "contents.quote",
+        "media.image",
+        "media.video"
+      ],
+      "required": true
     }
   }
 }

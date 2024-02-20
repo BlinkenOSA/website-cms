@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_contents",
+  "info": {
+    "displayName": "ContentFull",
+    "description": "",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

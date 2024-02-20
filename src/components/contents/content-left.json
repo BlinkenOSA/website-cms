@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_contents_content_lefts",
+  "info": {
+    "displayName": "ContentImage",
+    "description": "",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "blocks",
+      "required": true
+    },
+    "Images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.image",
+      "max": 3,
+      "required": true
+    },
+    "ImagePlacement": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ]
+    }
+  }
+}

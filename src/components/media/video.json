@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_media_videos",
+  "info": {
+    "displayName": "Video",
+    "description": "",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "Caption": {
+      "type": "string",
+      "required": true
+    },
+    "YouTube": {
+      "type": "string"
+    }
+  }
+}
