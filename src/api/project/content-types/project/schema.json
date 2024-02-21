@@ -50,20 +50,6 @@
         "Partner"
       ]
     },
-    "Profile": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Academic",
-        "Archival",
-        "Public"
-      ],
-      "required": true
-    },
     "StartDate": {
       "pluginOptions": {
         "i18n": {
@@ -150,6 +136,17 @@
       },
       "type": "uid",
       "targetField": "Title"
+    },
+    "Profiles": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contents.profiles",
+      "required": true
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_contents_profiles",
+  "info": {
+    "displayName": "Profiles",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Profile": {
+      "type": "enumeration",
+      "enum": [
+        "Academic",
+        "Archival",
+        "Public"
+      ],
+      "required": true
+    }
+  }
+}
