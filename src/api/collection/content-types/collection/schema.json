@@ -80,6 +80,36 @@
       },
       "type": "customField",
       "customField": "plugin::tagsinput.tags"
+    },
+    "ContentTypes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "customField",
+      "options": [
+        "Digital",
+        "Curated"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "MaterialTypes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "customField",
+      "options": [
+        "Textual",
+        "Moving Image",
+        "Audio",
+        "Still Image"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
