@@ -4,7 +4,8 @@
   "info": {
     "singularName": "staff-record",
     "pluralName": "staff-records",
-    "displayName": "Staff"
+    "displayName": "Staff",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,11 +26,12 @@
       "required": true
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -73,6 +75,15 @@
       "relation": "oneToMany",
       "target": "api::appearance.appearance",
       "mappedBy": "Staff"
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Name"
     }
   }
 }

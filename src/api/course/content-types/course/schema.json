@@ -73,6 +73,15 @@
       },
       "type": "customField",
       "customField": "plugin::tagsinput.tags"
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
