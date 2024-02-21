@@ -44,6 +44,12 @@
     },
     "FrontPageSequence": {
       "type": "integer"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
     }
   }
 }
