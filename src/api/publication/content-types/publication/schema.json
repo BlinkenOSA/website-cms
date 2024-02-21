@@ -33,15 +33,6 @@
       },
       "type": "string"
     },
-    "Author": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "Tags": {
       "pluginOptions": {
         "i18n": {
@@ -50,6 +41,12 @@
       },
       "type": "customField",
       "customField": "plugin::tagsinput.tags"
+    },
+    "Staff": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::staff-record.staff-record",
+      "inversedBy": "Publications"
     }
   }
 }

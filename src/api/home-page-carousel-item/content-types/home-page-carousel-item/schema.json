@@ -50,6 +50,9 @@
     },
     "ButtonLink": {
       "type": "string"
+    },
+    "Time": {
+      "type": "time"
     }
   }
 }

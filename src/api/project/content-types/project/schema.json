@@ -138,15 +138,27 @@
       "targetField": "Title"
     },
     "Profiles": {
-      "type": "component",
-      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "contents.profiles",
-      "required": true
+      "type": "customField",
+      "options": [
+        "Academic",
+        "Archival",
+        "Public"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "ButtonText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

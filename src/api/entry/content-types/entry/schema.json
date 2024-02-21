@@ -140,6 +140,21 @@
       },
       "type": "uid",
       "targetField": "Title"
+    },
+    "Author": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "AuthorStaff": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::staff-record.staff-record",
+      "mappedBy": "Entry"
     }
   }
 }
