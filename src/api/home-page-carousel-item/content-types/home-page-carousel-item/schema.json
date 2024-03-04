@@ -42,9 +42,6 @@
     "Link": {
       "type": "string"
     },
-    "FrontPageSequence": {
-      "type": "integer"
-    },
     "ButtonText": {
       "type": "string"
     },
@@ -53,6 +50,9 @@
     },
     "Time": {
       "type": "time"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }

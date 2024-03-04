@@ -64,14 +64,6 @@
       },
       "type": "string"
     },
-    "FrontPageSequence": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "integer"
-    },
     "Tags": {
       "pluginOptions": {
         "i18n": {
@@ -110,6 +102,15 @@
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
+    },
+    "rank": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "required": false
     }
   }
 }
