@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "entries",
+  "collectionName": "news_items",
   "info": {
-    "singularName": "entry",
-    "pluralName": "entries",
-    "displayName": "Entry",
+    "singularName": "news-item",
+    "pluralName": "news-items",
+    "displayName": "News",
     "description": ""
   },
   "options": {
@@ -30,10 +30,7 @@
       "multiple": false,
       "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ],
       "pluginOptions": {
         "i18n": {
@@ -47,48 +44,13 @@
           "localized": true
         }
       },
-      "type": "text",
-      "required": true
-    },
-    "Language": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Hungarian",
-        "English",
-        "Bi-Lingual"
-      ]
-    },
-    "FrontPageSequence": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "integer"
-    },
-    "EntryType": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Blog",
-        "Podcast",
-        "Video"
-      ],
+      "type": "string",
       "required": true
     },
     "Profile": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "enumeration",
@@ -96,21 +58,12 @@
         "Archival",
         "Academic",
         "Public"
-      ],
-      "required": true
-    },
-    "PodcastLink": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      ]
     },
     "Tags": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "customField",
@@ -127,6 +80,7 @@
         "contents.content-left",
         "contents.content",
         "contents.quote",
+        "contents.text-box",
         "media.image",
         "media.video"
       ],
@@ -147,14 +101,12 @@
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "AuthorStaff": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::staff-record.staff-record",
-      "mappedBy": "Entry"
+      "relation": "oneToOne",
+      "target": "api::staff-record.staff-record"
     },
     "EventType": {
       "pluginOptions": {
