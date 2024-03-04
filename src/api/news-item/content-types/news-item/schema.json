@@ -108,7 +108,7 @@
       "relation": "oneToOne",
       "target": "api::staff-record.staff-record"
     },
-    "EventType": {
+    "ActivityType": {
       "pluginOptions": {
         "i18n": {
           "localized": true
