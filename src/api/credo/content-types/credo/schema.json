@@ -4,7 +4,8 @@
   "info": {
     "singularName": "credo",
     "pluralName": "credos",
-    "displayName": "Credo"
+    "displayName": "Credo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,6 +28,9 @@
         "Public Programs"
       ],
       "required": true
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }
