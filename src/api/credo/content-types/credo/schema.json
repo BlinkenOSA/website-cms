@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "credos",
+  "info": {
+    "singularName": "credo",
+    "pluralName": "credos",
+    "displayName": "Credo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WeAre": {
+      "type": "string",
+      "required": true
+    },
+    "CredoText": {
+      "type": "text"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Archivum",
+        "Collection",
+        "Academics",
+        "Public Programs"
+      ],
+      "required": true
+    }
+  }
+}
