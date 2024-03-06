@@ -140,7 +140,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "AuthorStaff": {
       "type": "relation",
