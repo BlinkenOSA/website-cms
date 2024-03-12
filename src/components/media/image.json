@@ -16,7 +16,7 @@
       ]
     },
     "Caption": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }
