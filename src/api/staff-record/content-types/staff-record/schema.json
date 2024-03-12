@@ -47,15 +47,6 @@
       "type": "string",
       "required": true
     },
-    "OSAUnit": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "Bio": {
       "pluginOptions": {
         "i18n": {
