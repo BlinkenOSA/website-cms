@@ -55,7 +55,8 @@
       },
       "type": "enumeration",
       "enum": [
-        "Archival",
+        "Archivum",
+        "Collections",
         "Academic",
         "Public"
       ]
