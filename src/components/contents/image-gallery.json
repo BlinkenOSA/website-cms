@@ -2,16 +2,15 @@
   "collectionName": "components_contents_image_galleries",
   "info": {
     "displayName": "ImageGallery",
-    "icon": "landscape"
+    "icon": "landscape",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+      "type": "component",
+      "repeatable": true,
+      "component": "media.image"
     }
   }
 }
