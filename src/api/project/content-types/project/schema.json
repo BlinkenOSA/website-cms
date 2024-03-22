@@ -38,7 +38,7 @@
         }
       }
     },
-    "StartDate": {
+    "StartDateOld": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -46,7 +46,7 @@
       },
       "type": "date"
     },
-    "EndDate": {
+    "EndDateOld": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -89,7 +89,7 @@
       "type": "text",
       "required": true
     },
-    "Content": {
+    "ContentOld": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -148,6 +148,43 @@
         }
       },
       "type": "string"
+    },
+    "Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "contents.content-left",
+        "contents.content",
+        "contents.image-gallery",
+        "contents.quote",
+        "contents.text-box",
+        "media.image",
+        "media.video"
+      ]
+    },
+    "StartDate": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "components.date-approx"
+    },
+    "EndDate": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "components.date-approx"
     }
   }
 }

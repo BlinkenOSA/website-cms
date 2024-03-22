@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contents_image_galleries",
+  "info": {
+    "displayName": "ImageGallery",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -149,30 +149,6 @@
       "target": "api::staff-record.staff-record",
       "mappedBy": "Entry"
     },
-    "EventType": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Exhibition",
-        "Talk",
-        "Movie Screening",
-        "Theatre",
-        "Music",
-        "Conference",
-        "Workshop",
-        "University Teaching",
-        "Research",
-        "Scholarship",
-        "Publication",
-        "Internship",
-        "Lecture",
-        "Book Launch"
-      ]
-    },
     "OriginalCreationDate": {
       "pluginOptions": {
         "i18n": {

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_date_approx_s",
+  "info": {
+    "displayName": "DateApprox.",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "integer",
+      "required": true
+    },
+    "Month": {
+      "type": "integer",
+      "max": 12,
+      "min": 1
+    },
+    "Day": {
+      "type": "integer",
+      "min": 1,
+      "max": 31
+    }
+  }
+}
