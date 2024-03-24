@@ -21,6 +21,8 @@
     "ImagePlacement": {
       "type": "enumeration",
       "enum": [
+        "Above",
+        "Below",
         "Left",
         "Right"
       ]
