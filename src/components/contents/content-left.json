@@ -15,7 +15,7 @@
       "type": "component",
       "repeatable": true,
       "component": "media.image",
-      "required": true
+      "required": false
     },
     "ImagePlacement": {
       "type": "enumeration",
