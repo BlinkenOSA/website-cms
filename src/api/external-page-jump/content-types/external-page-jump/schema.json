@@ -27,10 +27,6 @@
         "audios"
       ]
     },
-    "Content": {
-      "type": "blocks",
-      "required": true
-    },
     "Link": {
       "type": "string",
       "required": true
@@ -38,6 +34,12 @@
     "LinkButtonText": {
       "type": "string",
       "required": true
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "contents.content-left"
+      ]
     }
   }
 }
