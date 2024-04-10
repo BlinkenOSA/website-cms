@@ -76,12 +76,6 @@
       "target": "api::course.course",
       "mappedBy": "Staff"
     },
-    "Entry": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::entry.entry",
-      "inversedBy": "AuthorStaff"
-    },
     "Publications": {
       "type": "relation",
       "relation": "manyToMany",
@@ -143,6 +137,12 @@
         "Verzio Filmfestival"
       ],
       "required": true
+    },
+    "Entries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::entry.entry",
+      "inversedBy": "AuthorStaff"
     }
   }
 }
