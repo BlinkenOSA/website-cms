@@ -68,7 +68,8 @@
         }
       },
       "type": "uid",
-      "targetField": "Name"
+      "targetField": "Name",
+      "required": true
     },
     "Courses": {
       "type": "relation",

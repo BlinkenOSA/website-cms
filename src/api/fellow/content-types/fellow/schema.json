@@ -107,6 +107,16 @@
         }
       },
       "type": "string"
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Name",
+      "required": true
     }
   }
 }
