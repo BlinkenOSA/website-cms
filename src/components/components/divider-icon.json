@@ -2,17 +2,17 @@
   "collectionName": "components_components_divider_icons",
   "info": {
     "displayName": "DividerIcon",
-    "icon": "apps"
+    "icon": "apps",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Profile": {
+    "Placement": {
       "type": "enumeration",
       "enum": [
-        "Archivum",
-        "Collections",
-        "Academic",
-        "Public"
+        "Left",
+        "Right",
+        "Full"
       ]
     }
   }

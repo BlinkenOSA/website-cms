@@ -7,15 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "Profile": {
-      "type": "enumeration",
-      "enum": [
-        "Archivum",
-        "Collections",
-        "Academic",
-        "Public"
-      ]
-    },
     "Placement": {
       "type": "enumeration",
       "enum": [
