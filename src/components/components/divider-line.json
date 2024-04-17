@@ -2,7 +2,8 @@
   "collectionName": "components_components_divider_lines",
   "info": {
     "displayName": "DividerLine",
-    "icon": "oneToOne"
+    "icon": "oneToOne",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,14 @@
         "Collections",
         "Academic",
         "Public"
+      ]
+    },
+    "Placement": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right",
+        "Full"
       ]
     }
   }
