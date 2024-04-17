@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_divider_lines",
+  "info": {
+    "displayName": "DividerLine",
+    "icon": "oneToOne"
+  },
+  "options": {},
+  "attributes": {
+    "Profile": {
+      "type": "enumeration",
+      "enum": [
+        "Archivum",
+        "Collections",
+        "Academic",
+        "Public"
+      ]
+    }
+  }
+}

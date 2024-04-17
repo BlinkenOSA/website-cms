@@ -123,7 +123,9 @@
         "media.image",
         "media.video",
         "contents.text-box",
-        "contents.image-gallery"
+        "contents.image-gallery",
+        "components.divider-icon",
+        "components.divider-line"
       ],
       "required": true
     },

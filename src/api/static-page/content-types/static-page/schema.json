@@ -54,7 +54,11 @@
         "contents.content",
         "contents.quote",
         "media.image",
-        "media.video"
+        "media.video",
+        "contents.image-gallery",
+        "contents.text-box",
+        "components.divider-icon",
+        "components.divider-line"
       ],
       "required": true
     },

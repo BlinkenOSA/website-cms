@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_divider_icons",
+  "info": {
+    "displayName": "DividerIcon",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Profile": {
+      "type": "enumeration",
+      "enum": [
+        "Archivum",
+        "Collections",
+        "Academic",
+        "Public"
+      ]
+    }
+  }
+}

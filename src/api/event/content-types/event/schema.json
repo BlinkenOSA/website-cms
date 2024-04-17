@@ -177,7 +177,11 @@
         "contents.content",
         "contents.quote",
         "media.image",
-        "media.video"
+        "media.video",
+        "contents.text-box",
+        "contents.image-gallery",
+        "components.divider-icon",
+        "components.divider-line"
       ],
       "required": true
     },

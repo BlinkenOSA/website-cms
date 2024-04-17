@@ -83,7 +83,10 @@
         "contents.quote",
         "contents.text-box",
         "media.image",
-        "media.video"
+        "media.video",
+        "contents.image-gallery",
+        "components.divider-icon",
+        "components.divider-line"
       ],
       "required": true
     },
