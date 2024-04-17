@@ -53,6 +53,15 @@
     },
     "rank": {
       "type": "integer"
+    },
+    "Profile": {
+      "type": "enumeration",
+      "enum": [
+        "Archivum",
+        "Collections",
+        "Academic",
+        "Public"
+      ]
     }
   }
 }
