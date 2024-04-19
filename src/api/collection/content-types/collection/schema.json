@@ -121,6 +121,16 @@
       "type": "integer",
       "required": false,
       "default": 0
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
     }
   }
 }
