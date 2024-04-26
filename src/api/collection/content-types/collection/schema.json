@@ -81,8 +81,10 @@
       },
       "type": "customField",
       "options": [
-        "Digital",
-        "Curated"
+        "Online",
+        "Curated",
+        "AV",
+        "Library"
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
