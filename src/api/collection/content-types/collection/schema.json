@@ -131,6 +131,22 @@
       "type": "uid",
       "targetField": "Title",
       "required": true
+    },
+    "Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "contents.content-left",
+        "contents.image-gallery",
+        "contents.quote",
+        "contents.text-box",
+        "media.image",
+        "media.video"
+      ]
     }
   }
 }
