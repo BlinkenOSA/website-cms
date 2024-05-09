@@ -84,7 +84,8 @@
         "Online",
         "Curated",
         "AV",
-        "Library"
+        "Library",
+        "Digital"
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
