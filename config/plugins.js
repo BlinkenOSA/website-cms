@@ -6,7 +6,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `annualReport-${entry.id}`,
             type: 'annualReport'
           }
         },
@@ -16,7 +15,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `collection-${entry.id}`,
             type: 'collection'
           }
         }
@@ -26,7 +24,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `entry-${entry.id}`,
             type: 'entry'
           }
         }
@@ -36,7 +33,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `event-${entry.id}`,
             type: 'event'
           }
         }
@@ -46,7 +42,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `fellow-${entry.id}`,
             type: 'fellow'
           }
         }
@@ -56,7 +51,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `job-${entry.id}`,
             type: 'job'
           }
         }
@@ -64,10 +58,12 @@ module.exports = {
       "news-item": {
         indexName: "website",
         transformEntry({ entry }) {
+          const transformedEntry = entry
+          delete transformedEntry.published_at
           return {
-            ...entry,
-            id: `news-${entry.id}`,
-            type: 'news'
+            ...transformedEntry,      
+            type: 'news',
+            Tags: transformedEntry.Tags.map(tag => tag.name),
           }
         }
       },
@@ -76,7 +72,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `project-${entry.id}`,
             type: 'project'
           }
         }
@@ -95,7 +90,6 @@ module.exports = {
         transformEntry({ entry }) {
           return {
             ...entry,
-            id: `page-${entry.id}`,
             type: 'page'
           }
         }
