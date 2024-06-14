@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_i_frames",
+  "info": {
+    "displayName": "IFrame",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Source": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

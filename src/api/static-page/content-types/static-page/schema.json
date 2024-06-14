@@ -58,7 +58,8 @@
         "contents.image-gallery",
         "contents.text-box",
         "components.divider-icon",
-        "components.divider-line"
+        "components.divider-line",
+        "components.i-frame"
       ],
       "required": true
     },
