@@ -59,7 +59,8 @@
         "Collections",
         "Academic",
         "Public"
-      ]
+      ],
+      "required": true
     },
     "Tags": {
       "pluginOptions": {
