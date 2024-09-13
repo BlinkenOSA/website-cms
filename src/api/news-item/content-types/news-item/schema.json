@@ -150,7 +150,8 @@
         "Theatre",
         "University Course",
         "Workshop"
-      ]
+      ],
+      "required": true
     },
     "OriginalCreationDate": {
       "pluginOptions": {
