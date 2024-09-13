@@ -59,7 +59,8 @@
         "contents.text-box",
         "components.divider-icon",
         "components.divider-line",
-        "components.i-frame"
+        "components.i-frame",
+        "media.pdf"
       ],
       "required": true
     },

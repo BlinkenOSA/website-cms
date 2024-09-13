@@ -125,7 +125,8 @@
         "contents.text-box",
         "contents.image-gallery",
         "components.divider-icon",
-        "components.divider-line"
+        "components.divider-line",
+        "media.pdf"
       ],
       "required": true
     },
