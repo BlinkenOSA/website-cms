@@ -150,6 +150,48 @@
         "media.image",
         "media.video"
       ]
+    },
+    "RelatedEntries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::entry.entry",
+      "inversedBy": "RelatedCollections"
+    },
+    "RelatedEvents": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::event.event",
+      "inversedBy": "RelatedCollections"
+    },
+    "RelatedNews": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::news-item.news-item",
+      "inversedBy": "RelatedCollections"
+    },
+    "RelatedPages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::static-page.static-page",
+      "inversedBy": "RelatedCollections"
+    },
+    "RelatedProjects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "inversedBy": "RelatedCollections"
+    },
+    "RelatedCollectionsSource": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::collection.collection",
+      "inversedBy": "RelatedCollectionsDestination"
+    },
+    "RelatedCollectionsDestination": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::collection.collection",
+      "inversedBy": "RelatedCollectionsSource"
     }
   }
 }
