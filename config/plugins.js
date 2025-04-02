@@ -62,8 +62,8 @@ module.exports = {
           delete transformedEntry.published_at
           return {
             ...transformedEntry,      
-            type: 'news',
-            Tags: transformedEntry.Tags.map(tag => tag.name),
+            type: 'news'
+            // Tags: transformedEntry.Tags.map(tag => tag.name),
           }
         }
       },
