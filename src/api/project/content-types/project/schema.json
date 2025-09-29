@@ -38,21 +38,25 @@
         }
       }
     },
-    "StartDateOld": {
+    "StartDate": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "date"
+      "component": "components.date-approx"
     },
-    "EndDateOld": {
+    "EndDate": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "date"
+      "component": "components.date-approx"
     },
     "Language": {
       "pluginOptions": {
@@ -166,26 +170,6 @@
         "media.image",
         "media.video"
       ]
-    },
-    "StartDate": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "components.date-approx"
-    },
-    "EndDate": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "components.date-approx"
     },
     "RelatedCollections": {
       "type": "relation",
