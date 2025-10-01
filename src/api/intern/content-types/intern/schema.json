@@ -62,7 +62,7 @@
         }
       }
     },
-    "Affiliation": {
+    "Project": {
       "pluginOptions": {
         "i18n": {
           "localized": true
