@@ -123,6 +123,7 @@
       },
       "type": "enumeration",
       "enum": [
+        "Acting Director",
         "Administration",
         "Archival Programs",
         "Audiovisual Unit",
