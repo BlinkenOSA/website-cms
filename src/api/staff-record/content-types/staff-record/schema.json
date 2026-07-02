@@ -123,12 +123,11 @@
       },
       "type": "enumeration",
       "enum": [
-        "Acting Director",
         "Administration",
         "Archival Programs",
         "Audiovisual Unit",
         "Chief Archivist",
-        "Founding Director",
+        "Director",
         "IT",
         "Library",
         "Public Programs and Outreach",
