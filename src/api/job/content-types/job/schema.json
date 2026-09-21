@@ -50,7 +50,7 @@
       ],
       "required": true
     },
-    "ContentHighglight": {
+    "ContentHighlight": {
       "pluginOptions": {
         "i18n": {
           "localized": true

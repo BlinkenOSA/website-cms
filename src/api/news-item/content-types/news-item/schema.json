@@ -205,9 +205,9 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::news-item.news-item",
-      "inversedBy": "RelatedNewsDesination"
+      "inversedBy": "RelatedNewsDestination"
     },
-    "RelatedNewsDesination": {
+    "RelatedNewsDestination": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::news-item.news-item",
